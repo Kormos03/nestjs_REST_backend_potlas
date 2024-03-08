@@ -1,0 +1,165 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "dogahoz tesztek",
+    "dateExported": "2024-03-08T10:08:57.648Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "80fb7bc2-60e0-4501-bf9b-e52b43c386a1",
+            "colId": "1a1e28b7-beed-42b5-aea3-e077404304fd",
+            "containerId": "",
+            "name": "delete sikeres",
+            "url": "http://localhost:3000/clients/2",
+            "method": "DELETE",
+            "sortNum": 10000,
+            "created": "2024-03-08T10:07:28.994Z",
+            "modified": "2024-03-08T10:07:28.994Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "8884c797-0c0b-448e-a2f2-3f442b36ad8f",
+            "colId": "1a1e28b7-beed-42b5-aea3-e077404304fd",
+            "containerId": "",
+            "name": "update sikeres",
+            "url": "http://localhost:3000/clients/1",
+            "method": "PATCH",
+            "sortNum": 20000,
+            "created": "2024-03-08T10:07:38.709Z",
+            "modified": "2024-03-08T10:07:38.709Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"George Flush\",\n  \"address\":\"9 Main str. Washington DC\",\n  \"dataLimit\":80\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "ded7715b-5044-4139-897c-0bc59919b770",
+            "colId": "1a1e28b7-beed-42b5-aea3-e077404304fd",
+            "containerId": "",
+            "name": "lekerdezes id alapjan",
+            "url": "http://localhost:3000/clients/1",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-03-08T10:07:46.649Z",
+            "modified": "2024-03-08T10:07:46.649Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "6e327ee8-4f7a-4bc7-b354-953ac9793e9a",
+            "colId": "1a1e28b7-beed-42b5-aea3-e077404304fd",
+            "containerId": "",
+            "name": "lekerdezes osszes",
+            "url": "http://localhost:3000/clients",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-03-08T10:07:53.878Z",
+            "modified": "2024-03-08T10:07:53.878Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "61fed6aa-4e2d-4eaa-8349-4dade94b2d98",
+            "colId": "1a1e28b7-beed-42b5-aea3-e077404304fd",
+            "containerId": "",
+            "name": "tul alcsony a korlat",
+            "url": "http://localhost:3000/clients",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-03-08T10:08:02.494Z",
+            "modified": "2024-03-08T10:08:02.494Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"George Bush\",\n  \"address\":\"10 Main str. Washington DC\",\n  \"dataLimit\":40\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "b5999291-d9fd-4fbf-a5d7-cf7bdade66ab",
+            "colId": "1a1e28b7-beed-42b5-aea3-e077404304fd",
+            "containerId": "",
+            "name": "tul magas a korlat",
+            "url": "http://localhost:3000/clients",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-03-08T10:08:12.793Z",
+            "modified": "2024-03-08T10:08:12.793Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"George Bush\",\n  \"address\":\"10 Main str. Washington DC\",\n  \"dataLimit\":1001\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "c9add617-18ce-412c-a2ce-c7166634b0cb",
+            "colId": "1a1e28b7-beed-42b5-aea3-e077404304fd",
+            "containerId": "",
+            "name": "a cim megegyezik maseval",
+            "url": "http://localhost:3000/clients",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2024-03-08T10:08:21.030Z",
+            "modified": "2024-03-08T10:08:21.030Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"Japanese Man\",\n  \"address\":\"10 Main str. Washington DC\",\n  \"dataLimit\":900\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "41ef8f03-001d-486b-b77b-3b44e5ef3c69",
+            "colId": "1a1e28b7-beed-42b5-aea3-e077404304fd",
+            "containerId": "",
+            "name": "ures nev",
+            "url": "http://localhost:3000/clients",
+            "method": "POST",
+            "sortNum": 80000,
+            "created": "2024-03-08T10:08:31.424Z",
+            "modified": "2024-03-08T10:08:31.424Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"\",\n  \"address\":\"10 Main str. Washington DC\",\n  \"dataLimit\":900\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "6eacd937-a008-4923-a63e-9dbedbf81821",
+            "colId": "1a1e28b7-beed-42b5-aea3-e077404304fd",
+            "containerId": "",
+            "name": "sikeres post",
+            "url": "http://localhost:3000/clients",
+            "method": "POST",
+            "sortNum": 90000,
+            "created": "2024-03-08T10:08:44.767Z",
+            "modified": "2024-03-08T10:08:44.767Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"Korean Woman\",\n  \"address\":\"4 Main str. Washington DC\",\n  \"dataLimit\":90\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
